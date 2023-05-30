@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct MenuView: View {
+    
+    var menuItems:[MenuItem] = []
+    
     var body: some View {
         Text("Hello, world!")
             .padding()
