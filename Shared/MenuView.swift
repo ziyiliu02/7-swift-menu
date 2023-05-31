@@ -9,7 +9,8 @@ import SwiftUI
 
 struct MenuView: View {
     
-    var menuItems:[MenuItem] = [MenuItem]()
+    @State var menuItems:[MenuItem] = [MenuItem]()
+    var dataService = DataService()
     
     var body: some View {
         
@@ -37,6 +38,10 @@ struct MenuView: View {
             
         }
         .listStyle(.plain)
+        .onAppear{
+            // Call for the data
+            menuItems = dataService.getData()
+        }
         
     }
 }
