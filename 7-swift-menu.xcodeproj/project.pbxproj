@@ -16,6 +16,7 @@
 		648B06982A2612CA0021B04B /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 648B06972A2612CA0021B04B /* MenuItem.swift */; };
 		64A844E52A277EC20043F34F /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A844E42A277EC20043F34F /* DataService.swift */; };
 		64A844E62A277EC20043F34F /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A844E42A277EC20043F34F /* DataService.swift */; };
+		64A844E82A28469B0043F34F /* MenuListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64A844E72A28469B0043F34F /* MenuListRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		6425BC242A24EBBE00F084AC /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
 		648B06972A2612CA0021B04B /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 		64A844E42A277EC20043F34F /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		64A844E72A28469B0043F34F /* MenuListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			children = (
 				6425BC152A24EBBC00F084AC /* __swift_menuApp.swift */,
 				6425BC162A24EBBC00F084AC /* MenuView.swift */,
+				64A844E72A28469B0043F34F /* MenuListRow.swift */,
 				648B06972A2612CA0021B04B /* MenuItem.swift */,
 				64A844E42A277EC20043F34F /* DataService.swift */,
 				6425BC172A24EBBE00F084AC /* Assets.xcassets */,
@@ -186,6 +189,7 @@
 				648B06982A2612CA0021B04B /* MenuItem.swift in Sources */,
 				6425BC272A24EBBE00F084AC /* MenuView.swift in Sources */,
 				6425BC252A24EBBE00F084AC /* __swift_menuApp.swift in Sources */,
+				64A844E82A28469B0043F34F /* MenuListRow.swift in Sources */,
 				64A844E52A277EC20043F34F /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
